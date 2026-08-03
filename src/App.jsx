@@ -17,8 +17,8 @@ const App = () => {
   return (
     <div>
       <h1>{num}</h1>
-      <button onClick={increase}>increase</button>
-       <button onClick={decrease}>decrease</button>
+      <button onClick={increase}>Increase</button>
+       <button onClick={decrease}>Decrease</button>
        <button onClick={increase10}>increase by 10</button>
     </div>
   )
